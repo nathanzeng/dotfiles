@@ -1,4 +1,5 @@
 # Aliases
+alias ll='ls -lAF'
 alias gs='git status'
 alias cat='bat'
 
