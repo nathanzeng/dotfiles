@@ -1,0 +1,8 @@
+# Ignore everything except this file
+/*
+!/.gitignore
+
+# Tracked directories
+!/bash
+!/nvim
+!/ghostty

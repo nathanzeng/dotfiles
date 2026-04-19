@@ -1,0 +1,40 @@
+theme = Nordfox
+
+# No ligatures
+font-feature = -calt, -liga, -dlig
+
+# Set the cursor to a block
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+# This makes the padding even between the 4 sides
+window-padding-balance = true
+window-padding-x = 0
+window-padding-y = 0
+
+# Misc stuff to make it look good
+mouse-hide-while-typing = true
+window-decoration = none
+maximize = true
+
+# Keybinds
+# Trying to mimic my macos config here
+keybind = alt+t=new_tab
+keybind = alt+w=close_surface
+
+keybind = alt+j=scroll_page_lines:1
+keybind = alt+k=scroll_page_lines:-1
+
+keybind = alt+d=scroll_page_fractional:0.5
+keybind = alt+u=scroll_page_fractional:-0.5
+
+keybind = alt+s=new_split:right
+
+# Moving between tabs
+keybind = alt+arrow_right=next_tab
+keybind = alt+arrow_left=previous_tab
+
+# Moving between splits
+keybind = alt+l=goto_split:right
+keybind = alt+h=goto_split:left
