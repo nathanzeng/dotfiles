@@ -19,9 +19,6 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Secret env variables
-source ~/.config/bash/bash_secrets.bash
-
 # Starship stuff
 export STARSHIP_CONFIG=~/.config/bash/starship.toml
 eval "$(starship init bash)"
