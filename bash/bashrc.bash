@@ -5,7 +5,6 @@ export PATH="$HOME/neovim/bin:$PATH"
 alias kick='NVIM_APPNAME="kick" nvim'
 
 # Aliases
-alias vim='nvim'
 alias gs='git status'
 
 # bat
