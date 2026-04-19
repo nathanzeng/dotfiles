@@ -1,0 +1,12 @@
+git
+gh (may be the easiest way to upload ssh key)
+
+starship
+ghostty
+
+nvim
+tree sitter cli (via npm)
+fd
+ripgrep
+
+bat

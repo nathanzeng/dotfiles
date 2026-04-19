@@ -2,7 +2,8 @@
 /*
 !/.gitignore
 
-# Tracked directories
+# Tracked stuff
 !/bash
 !/nvim
 !/ghostty
+!/packages.txt
