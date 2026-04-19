@@ -1,0 +1,17 @@
+let mapleader = " "
+
+nnoremap <leader>w :w<CR>
+
+nnoremap <CR> o<Esc>
+nnoremap <S-Enter> O<Esc>
+
+" Moving betwen right and left split
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" Lines above and below
+set scrolloff=10
+
+" Moving between tabs
+nnoremap L :action NextTab<CR>
+nnoremap H :action PreviousTab<CR>
