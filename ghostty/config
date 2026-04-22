@@ -1,4 +1,5 @@
 theme = Nordfox
+font-size = 13
 
 # No ligatures
 font-feature = -calt, -liga, -dlig
