@@ -34,3 +34,7 @@ keybind = super+u=scroll_page_fractional:-0.5
 
 # This was super+d by default
 keybind = super+s=new_split:right
+
+# Moving between tabs
+keybind = super+arrow_right=next_tab
+keybind = super+arrow_left=previous_tab
