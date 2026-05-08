@@ -7,7 +7,7 @@ alias kick='NVIM_APPNAME="kick" nvim'
 # Aliases
 alias gs='git status'
 alias ll='ls -lAF'
-alias cat='bat'
+alias cat='bat --paging=never'
 
 # nvim as editor
 export EDITOR='nvim'
