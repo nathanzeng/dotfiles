@@ -1,7 +1,7 @@
 # Aliases
 alias ll='ls -lAF'
 alias gs='git status'
-alias cat='bat'
+alias cat='bat --paging=never'
 
 # nvim as editor
 export EDITOR='nvim'
