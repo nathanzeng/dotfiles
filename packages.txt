@@ -6,7 +6,7 @@ ghostty
 
 nvim
 npm (via nvm)
-tree sitter cli
+tree sitter cli (via npm)
 fd
 ripgrep
 
