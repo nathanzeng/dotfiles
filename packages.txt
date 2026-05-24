@@ -5,7 +5,8 @@ starship
 ghostty
 
 nvim
-tree sitter cli (via npm)
+npm (via nvm)
+tree sitter cli
 fd
 ripgrep
 
