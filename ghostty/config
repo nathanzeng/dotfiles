@@ -32,9 +32,12 @@ keybind = super+k=scroll_page_lines:-1
 keybind = super+d=scroll_page_fractional:0.5
 keybind = super+u=scroll_page_fractional:-0.5
 
-# This was super+d by default
+# Splits
 keybind = super+s=new_split:right
+keybind = super+l=goto_split:right
+keybind = super+h=goto_split:left
 
-# Moving between tabs
+# Tabs
 keybind = super+arrow_right=next_tab
 keybind = super+arrow_left=previous_tab
+keybind = super+r=prompt_tab_title
