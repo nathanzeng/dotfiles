@@ -30,12 +30,12 @@ keybind = alt+k=scroll_page_lines:-1
 keybind = alt+d=scroll_page_fractional:0.5
 keybind = alt+u=scroll_page_fractional:-0.5
 
+# Splits
 keybind = alt+s=new_split:right
-
-# Moving between tabs
-keybind = alt+arrow_right=next_tab
-keybind = alt+arrow_left=previous_tab
-
-# Moving between splits
 keybind = alt+l=goto_split:right
 keybind = alt+h=goto_split:left
+
+# Tabs
+keybind = alt+arrow_right=next_tab
+keybind = alt+arrow_left=previous_tab
+keybind = alt+r=prompt_tab_title
