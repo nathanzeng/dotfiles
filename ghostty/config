@@ -25,19 +25,20 @@ bell-features = system
 
 # Keybinds
 # In defaults, these were scroll to selection and clear screen respectively
-keybind = super+j=scroll_page_lines:1
-keybind = super+k=scroll_page_lines:-1
+keybind = cmd+j=scroll_page_lines:1
+keybind = cmd+k=scroll_page_lines:-1
 
 # Mimics jumping by half a page in nvim
-keybind = super+d=scroll_page_fractional:0.5
-keybind = super+u=scroll_page_fractional:-0.5
+keybind = cmd+d=scroll_page_fractional:0.5
+keybind = cmd+u=scroll_page_fractional:-0.5
 
 # Splits
-keybind = super+s=new_split:right
-keybind = super+l=goto_split:right
-keybind = super+h=goto_split:left
+keybind = cmd+s=new_split:right
+# Hyper key from Raycast
+keybind = shift+ctrl+opt+cmd+l=goto_split:right
+keybind = shift+ctrl+opt+cmd+h=goto_split:left
 
 # Tabs
-keybind = super+arrow_right=next_tab
-keybind = super+arrow_left=previous_tab
-keybind = super+r=prompt_tab_title
+keybind = cmd+l=next_tab
+keybind = cmd+h=previous_tab
+keybind = cmd+r=prompt_tab_title
