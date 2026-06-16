@@ -32,10 +32,10 @@ keybind = alt+u=scroll_page_fractional:-0.5
 
 # Splits
 keybind = alt+s=new_split:right
-keybind = alt+l=goto_split:right
-keybind = alt+h=goto_split:left
+keybind = super+l=goto_split:right
+keybind = super+h=goto_split:left
 
 # Tabs
-keybind = alt+arrow_right=next_tab
-keybind = alt+arrow_left=previous_tab
+keybind = alt+l=next_tab
+keybind = alt+h=previous_tab
 keybind = alt+r=prompt_tab_title
