@@ -1,0 +1,25 @@
+[user]
+  name = "Nathan Zeng"
+  email = nathan.j.zeng@gmail.com
+[pull]
+  rebase = true
+
+# Delta stuff
+[pager]
+  diff = delta
+  show = delta
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true  # use n and N to move between diff sections
+  dark = true      # or light = true, or omit for auto-detection
+  features = platypus
+  side-by-side = false
+
+[merge]
+  conflictStyle = zdiff3
+
+[include]
+  path = ~/.config/git/themes.gitconfig
