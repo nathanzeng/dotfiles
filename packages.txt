@@ -1,5 +1,6 @@
 git
 gh (may be the easiest way to upload ssh key)
+git-delta
 
 starship
 ghostty
