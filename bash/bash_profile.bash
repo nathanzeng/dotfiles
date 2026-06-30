@@ -8,6 +8,9 @@ export EDITOR='nvim'
 export VISUAL='nvim'
 export MANPAGER='nvim +Man!'
 
+# nvim testing
+alias tvim='NVIM_APPNAME="tvim" nvim'
+
 # Colorizes ls on mac
 export CLICOLOR=1
 
