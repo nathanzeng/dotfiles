@@ -17,6 +17,10 @@ export CLICOLOR=1
 # NOTE: these were downloaded from the git Github page, update when updating git
 source ~/.config/bash/git-completion.bash
 
+# Use s to jump to the most frecent dir of the given name
+export _Z_CMD="s"
+source ~/.config/bash/z.sh
+
 # RPHQ Mobile Project: use the java that came with android studio
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 
