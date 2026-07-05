@@ -40,3 +40,6 @@ keybind = super+h=goto_split:left
 keybind = alt+l=next_tab
 keybind = alt+h=previous_tab
 keybind = alt+r=prompt_tab_title
+
+# I maximize window via the OS, so free up this mapping
+keybind = ctrl+enter=unbind
