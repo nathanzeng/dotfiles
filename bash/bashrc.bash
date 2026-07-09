@@ -3,6 +3,8 @@ export PATH="$HOME/neovim/bin:$PATH"
 
 # Kickstart testing
 alias kick='NVIM_APPNAME="kick" nvim'
+# tvim is useful for minimal repros of bugs
+alias tvim='NVIM_APPNAME="tvim" nvim'
 
 # Aliases
 alias gs='git status'
