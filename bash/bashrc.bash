@@ -1,4 +1,6 @@
-# NOTE: this was for installing to non default location, but don't think i need it?
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# Neovim install location
 export PATH="$HOME/neovim/bin:$PATH"
 
 # Kickstart testing
