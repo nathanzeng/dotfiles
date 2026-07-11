@@ -1,3 +1,8 @@
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# Neovim install location
+export PATH="$HOME/neovim/bin:$PATH"
+
 # Aliases
 alias ll='ls -lAF'
 alias gs='git status'
