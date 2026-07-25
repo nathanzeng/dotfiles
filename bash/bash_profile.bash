@@ -4,7 +4,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/neovim/bin:$PATH"
 
 # Aliases
-alias ll='ls -lAF'
+alias l='ls -lAF'
 alias gs='git status'
 alias cat='bat --paging=never'
 
