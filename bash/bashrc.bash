@@ -10,6 +10,7 @@ alias tvim='NVIM_APPNAME="tvim" nvim'
 
 # Aliases
 alias gs='git status'
+alias n='nvim'
 alias l='ls -lAF'
 alias cat='bat --paging=never'
 
