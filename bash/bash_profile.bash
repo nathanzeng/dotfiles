@@ -5,6 +5,7 @@ export PATH="$HOME/neovim/bin:$PATH"
 
 # Aliases
 alias l='ls -lAF'
+alias n='nvim'
 alias gs='git status'
 alias cat='bat --paging=never'
 
