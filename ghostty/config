@@ -22,6 +22,7 @@ window-padding-y = 0
 # Misc
 mouse-hide-while-typing = true
 quit-after-last-window-closed = true
+copy-on-select = clipboard
 
 # Keybinds
 # In defaults, these were scroll to selection and clear screen respectively
