@@ -15,7 +15,7 @@ window-padding-balance = true
 window-padding-x = 0
 window-padding-y = 0
 
-# Misc stuff to make it look good
+# Misc stuff
 mouse-hide-while-typing = true
 window-decoration = none
 maximize = true
@@ -45,3 +45,5 @@ keybind = alt+r=prompt_tab_title
 
 # I maximize window via the OS, so free up this mapping
 keybind = ctrl+enter=unbind
+# No idea what was mapping this before
+keybind = ctrl+,=unbind
