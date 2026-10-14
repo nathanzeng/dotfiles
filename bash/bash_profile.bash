@@ -17,8 +17,11 @@ export MANPAGER='nvim +Man!'
 # nvim testing
 alias tvim='NVIM_APPNAME="tvim" nvim'
 
-# Colorizes ls on mac
+# Colorizes ls
 export CLICOLOR=1
+
+# Bind ctrl+m to enter https://github.com/ghostty-org/ghostty/discussions/3586
+bind '"\e[109;5u": accept-line'
 
 # NOTE: these were downloaded from the git Github page, update when updating git
 source ~/.config/bash/git-completion.bash
