@@ -31,7 +31,7 @@ export _Z_CMD="s"
 source ~/.config/bash/z.sh
 
 # RPHQ Mobile Project: use the java that came with android studio
-export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 # nvm stuff
 export NVM_DIR="$HOME/.nvm"
